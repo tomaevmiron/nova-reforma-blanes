@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228 132" fill="none">
+  <!-- Redibujo vectorial del logotipo de Nova Reforma -->
+  <path d="M222 62C160 108 62 124 16 100 3 93 6 76 34 64 16 82 30 98 72 102c50 5 104-10 150-40Z" fill="#1557e0"/>
+  <path d="M54 72c-14 14 6 24 40 22" stroke="#3a3d42" stroke-width="6" stroke-linecap="round"/>
+  <path d="M64 70V34h34v22" stroke="#3a3d42" stroke-width="5.5"/>
+  <path d="M104 62V6l40 26v30l-20-14Z" fill="#1557e0"/>
+  <path d="M150 74V26h32v52" stroke="#3a3d42" stroke-width="4.5"/>
+  <path d="M157 30v40M164 30v44M171 30v48M177 30v50" stroke="#3a3d42" stroke-width="3.2"/>
+  <path d="M66 90l46-36 62 44" stroke="#fff" stroke-width="13" stroke-linejoin="miter"/>
+  <path d="M66 90l46-36 62 44" stroke="#1557e0" stroke-width="6.5"/>
+  <path d="M92 96l34-25 34 25" stroke="#3a3d42" stroke-width="5"/>
+  <path d="M119 81h6v5h-6zM127 81h6v5h-6zM119 88h6v5h-6zM127 88h6v5h-6z" fill="#3a3d42"/>
+</svg>

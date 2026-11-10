@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contacto y presupuesto · Nova Reforma Blanes</title>
+<meta name="description" content="Pide presupuesto sin compromiso a Nova Reforma Blanes. Carrer de Raval, 11, Blanes. Teléfono 677 81 98 84. Lunes a viernes de 9:00 a 15:00.">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilo.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header class="cab">
+  <div class="caja">
+    <a class="marca" href="index.html" aria-label="Nova Reforma Blanes, inicio">
+      <img src="img/logo.svg" alt="" width="86" height="50">
+      <b>Nova Reforma<small>BLANES</small></b>
+    </a>
+    <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="proyectos.html">Antes y después</a>
+      <a href="contacto.html" aria-current="page">Contacto</a>
+      <a class="tel" href="tel:+34677819884">677 81 98 84</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="encabezado fondo-plano">
+    <div class="caja">
+      <p class="cota">Contacto</p>
+      <h1>Hablemos <span class="azul">de tu obra</span></h1>
+      <p class="entrada">Cuéntanos qué quieres reformar. Pasamos a verlo, medimos y te entregamos un presupuesto claro, sin compromiso.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="caja">
+      <div class="contacto">
+        <div class="ap">
+          <ul class="datos">
+            <li><span>Teléfono</span><a href="tel:+34677819884">677 81 98 84</a></li>
+            <li><span>WhatsApp</span><a href="https://wa.me/34677819884" target="_blank" rel="noopener">Escríbenos por WhatsApp</a></li>
+            <li><span>Dirección</span><b>Carrer de Raval, 11<br>17300 Blanes, Girona</b></li>
+            <li><span>Horario</span><b>Lunes a viernes · 9:00–15:00</b></li>
+            <li><span>Instagram</span><a href="https://www.instagram.com/novareformablanes/" target="_blank" rel="noopener">@novareformablanes</a></li>
+          </ul>
+        </div>
+
+        <form class="form ap" id="presupuesto">
+          <h2>Pide tu presupuesto</h2>
+          <div class="dos">
+            <div class="campo"><label for="nombre">Nombre</label><input id="nombre" name="nombre" required autocomplete="name"></div>
+            <div class="campo"><label for="lugar">Población</label><input id="lugar" name="lugar" placeholder="Blanes, Lloret, Pineda…"></div>
+          </div>
+          <div class="campo"><label for="tipo">Tipo de obra</label>
+            <select id="tipo" name="tipo">
+              <option>Reforma integral</option><option>Baño</option><option>Cocina</option><option>Piscina</option><option>Exterior / fachada</option><option>Otra</option>
+            </select>
+          </div>
+          <div class="campo"><label for="detalles">Cuéntanos un poco</label><textarea id="detalles" name="detalles" placeholder="Metros aproximados, qué te gustaría cambiar, plazos…"></textarea></div>
+          <button class="btn" type="submit">Enviar por WhatsApp</button>
+          <p class="nota-form">Al enviar se abre WhatsApp con tu mensaje ya escrito; solo tienes que pulsar enviar. No guardamos ningún dato en esta web.</p>
+        </form>
+      </div>
+
+      <div class="mapa ap">
+        <iframe title="Mapa: Nova Reforma Blanes, Carrer de Raval 11" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Nova+Reforma+Blanes,+Carrer+de+Raval+11,+17300+Blanes&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <div class="caja">
+    <div>
+      <a class="marca" href="index.html"><img src="img/logo.svg" alt="" width="96" height="56"><b>Nova Reforma<small>BLANES</small></b></a>
+      <p style="margin-top:18px;max-width:34ch">Empresa de reformas y construcción en Blanes. Interior y exterior.</p>
+    </div>
+    <div>
+      <h4>Páginas</h4>
+      <ul>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="proyectos.html">Antes y después</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="tel:+34677819884">677 81 98 84</a></li>
+        <li>Carrer de Raval, 11 · 17300 Blanes</li>
+        <li>L–V · 9:00–15:00</li>
+        <li><a href="https://www.instagram.com/novareformablanes/" target="_blank" rel="noopener">Instagram @novareformablanes</a></li>
+      </ul>
+    </div>
+    <div class="legal"><span>© 2026 Nova Reforma Blanes</span><span>Blanes · Girona · Costa Brava</span></div>
+  </div>
+</footer>
+
+<script src="js/web.js"></script>
+</body>
+</html>
